@@ -1,11 +1,11 @@
-package com.yfny.servicefeign.controller;
+package com.yfny.feignexample.controller;
 
-import com.yfny.servicecommon.businesslog.BusinessLog;
-import com.yfny.servicefeign.service.UserServiceImpl;
+import com.yfny.utilscommon.businesslog.BusinessLog;
+import com.yfny.feignexample.service.UserServiceImpl;
 import com.yfny.servicepojo.entity.OrderEntity;
 import com.yfny.servicepojo.entity.UserEntity;
-import com.yfny.servicefeign.service.ExampleHelloService;
-import com.yfny.servicefeign.service.ExampleTipsService;
+import com.yfny.feignexample.service.ExampleHelloService;
+import com.yfny.feignexample.service.ExampleTipsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

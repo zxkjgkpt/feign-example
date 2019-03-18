@@ -1,6 +1,6 @@
-package com.yfny.servicefeign.exception;
+package com.yfny.feignexample.exception;
 
-import com.yfny.servicecommon.util.InvokeResult;
+import com.yfny.utilscommon.util.InvokeResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;

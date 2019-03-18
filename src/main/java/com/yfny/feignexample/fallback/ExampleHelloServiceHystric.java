@@ -1,8 +1,8 @@
-package com.yfny.servicefeign.fallback;
+package com.yfny.feignexample.fallback;
 
 import com.yfny.servicepojo.entity.DemandEntity;
 import com.yfny.servicepojo.entity.UserEntity;
-import com.yfny.servicefeign.service.ExampleHelloService;
+import com.yfny.feignexample.service.ExampleHelloService;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.yfny.servicefeign;
+package com.yfny.feignexample;
 
 import brave.sampler.Sampler;
 import com.codingapi.txlcn.tc.config.EnableDistributedTransaction;
@@ -17,10 +17,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableFeignClients
 @ComponentScan(basePackages = {"com.yfny.**.**"})
 @EnableDistributedTransaction
-public class ServiceFeignApplication {
+public class FeignExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceFeignApplication.class, args);
+        SpringApplication.run(FeignExampleApplication.class, args);
     }
 
     @Bean

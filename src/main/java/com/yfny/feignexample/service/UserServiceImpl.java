@@ -1,4 +1,4 @@
-package com.yfny.servicefeign.service;
+package com.yfny.feignexample.service;
 
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import org.springframework.beans.factory.annotation.Autowired;

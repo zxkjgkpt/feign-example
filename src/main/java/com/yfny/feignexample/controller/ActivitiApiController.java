@@ -1,6 +1,6 @@
-package com.yfny.servicefeign.controller;
+package com.yfny.feignexample.controller;
 
-import com.yfny.servicefeign.service.ExampleActivitiApiService;
+import com.yfny.feignexample.service.ExampleActivitiApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

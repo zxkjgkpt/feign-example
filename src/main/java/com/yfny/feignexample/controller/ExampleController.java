@@ -1,7 +1,7 @@
-package com.yfny.servicefeign.controller;
+package com.yfny.feignexample.controller;
 
-import com.yfny.servicefeign.service.ExampleHelloService;
-import com.yfny.servicefeign.service.ExampleTipsService;
+import com.yfny.feignexample.service.ExampleHelloService;
+import com.yfny.feignexample.service.ExampleTipsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

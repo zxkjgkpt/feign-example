@@ -1,7 +1,7 @@
-package com.yfny.servicefeign.fallback;
+package com.yfny.feignexample.fallback;
 
 import com.yfny.servicepojo.entity.OrderEntity;
-import com.yfny.servicefeign.service.ExampleTipsService;
+import com.yfny.feignexample.service.ExampleTipsService;
 import org.springframework.stereotype.Component;
 
 /**

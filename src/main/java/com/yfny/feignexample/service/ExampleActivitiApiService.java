@@ -1,4 +1,4 @@
-package com.yfny.servicefeign.service;
+package com.yfny.feignexample.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
