@@ -1,7 +1,7 @@
 package com.yfny.feignexample.service;
 
-import com.yfny.servicepojo.entity.DemandEntity;
-import com.yfny.servicepojo.entity.UserEntity;
+import com.yfny.corepojo.entity.DemandEntity;
+import com.yfny.corepojo.entity.UserEntity;
 import com.yfny.feignexample.fallback.ExampleHelloServiceHystric;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
