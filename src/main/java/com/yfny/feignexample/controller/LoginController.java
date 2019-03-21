@@ -2,8 +2,8 @@ package com.yfny.feignexample.controller;
 
 import com.yfny.utilscommon.businesslog.BusinessLog;
 import com.yfny.feignexample.service.UserServiceImpl;
-import com.yfny.corepojo.entity.OrderEntity;
-import com.yfny.corepojo.entity.UserEntity;
+import com.yfny.corepojo.entity.demo.OrderEntity;
+import com.yfny.corepojo.entity.demo.UserEntity;
 import com.yfny.feignexample.service.ExampleHelloService;
 import com.yfny.feignexample.service.ExampleTipsService;
 import org.springframework.beans.factory.annotation.Autowired;

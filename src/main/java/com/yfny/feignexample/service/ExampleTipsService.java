@@ -1,6 +1,6 @@
 package com.yfny.feignexample.service;
 
-import com.yfny.corepojo.entity.OrderEntity;
+import com.yfny.corepojo.entity.demo.OrderEntity;
 import com.yfny.feignexample.fallback.ExampleTipsServiceHystric;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

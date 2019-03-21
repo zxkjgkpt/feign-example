@@ -1,6 +1,6 @@
 package com.yfny.feignexample.fallback;
 
-import com.yfny.corepojo.entity.OrderEntity;
+import com.yfny.corepojo.entity.demo.OrderEntity;
 import com.yfny.feignexample.service.ExampleTipsService;
 import org.springframework.stereotype.Component;
 
