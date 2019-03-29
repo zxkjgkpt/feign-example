@@ -2,7 +2,7 @@ package com.yfny.feignexample.service;
 
 import com.yfny.corepojo.entity.demo.DemandEntity;
 import com.yfny.corepojo.entity.demo.UserEntity;
-import com.yfny.feignexample.fallback.ExampleHelloServiceHystric;
+import com.yfny.feignexample.fallback.ExampleHelloServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.List;
  * Created by jisongZhou on 2019/2/14.
  **/
 
-@FeignClient(value = "service-hello", fallback = ExampleHelloServiceHystric.class)
+@FeignClient(value = "service-hello", fallback = ExampleHelloServiceHystrix.class)
 public interface ExampleHelloService {
 
     @RequestMapping(value = "/exampleHello/hello", method = RequestMethod.GET)

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  **/
 
 @Component
-public class ExampleTipsServiceHystric implements ExampleTipsService {
+public class ExampleTipsServiceHystrix implements ExampleTipsService {
 
     @Override
     public String hello(String name) {

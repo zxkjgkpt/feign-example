@@ -13,7 +13,7 @@ import java.util.List;
  **/
 
 @Component
-public class ExampleHelloServiceHystric implements ExampleHelloService {
+public class ExampleHelloServiceHystrix implements ExampleHelloService {
 
     @Override
     public String hello(String name) {
